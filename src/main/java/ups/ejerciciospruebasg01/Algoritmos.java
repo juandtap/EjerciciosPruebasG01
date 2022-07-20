@@ -16,7 +16,7 @@ public class Algoritmos {
     // calcular el descuento con precio normal y precio pagado
     public double calculateDiscount04(double normalPrice, double paidPrice ){
         var des =  (100*(normalPrice-paidPrice))/normalPrice;
-        return des;
+        return Math.round(des);
     }
     
     // Ejercicio 06
