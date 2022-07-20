@@ -57,7 +57,7 @@ public class Algoritmos {
     
     // Ejercicio 10
     // Leer A y B  y pase el valor  de A  a B y B a A sin usar variables auxiliares
-    public void swapValues10(int valueA, int valueB){
+    public String swapValues10(int valueA, int valueB){
         
         var A = valueA;
         var B = valueB;
@@ -67,7 +67,9 @@ public class Algoritmos {
         B = A - B;
         A = A - B;
         
-        System.out.println("Valores intercambiados A:"+A+" B: "+B);
+        var values = A+" y "+B;
+        
+        return values;
         
     }
     
