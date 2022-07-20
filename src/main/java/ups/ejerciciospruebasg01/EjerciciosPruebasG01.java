@@ -20,14 +20,19 @@ public class EjerciciosPruebasG01 {
         System.out.println("Ejercicio 1\ngrados Celsius a Farenheit");
         System.out.println("Ingrese cantidad grados Celsius : ");
         double gcelsius = sc.nextDouble();
-        System.out.println("Grados Farenheit: "+algoritmos.celsiusToFarenheit(gcelsius));
+        System.out.println("Grados Farenheit: "+algoritmos.celsiusToFarenheit02(gcelsius));
         System.out.println("Ejercicio 2\nCalcular descuento de un producto");
         System.out.println("Ingrese precio normal : ");
         double pnormal = sc.nextDouble();
         System.out.println("Ingrese precio pagado : ");
         double ppagado = sc.nextDouble();
-        System.out.println("Descuento de : "+algoritmos.calculateDiscount(pnormal, ppagado)+"%");
+        System.out.println("Descuento de : "+algoritmos.calculateDiscount04(pnormal, ppagado)+"%");
         
+        
+        System.out.println("Ejercicio 18");
+        System.out.println(algoritmos.reverseCount18());
+        System.out.println("Ejercicio 20");
+        System.out.println(algoritmos.evenNumbers20());
         
     }
 }

@@ -43,7 +43,7 @@ public class AlgoritmosTest {
         double celsius = 15;
         Algoritmos instance = new Algoritmos();
         double expResult = 59;
-        double result = instance.celsiusToFarenheit(celsius);
+        double result = instance.celsiusToFarenheit02(celsius);
         assertEquals(expResult, result, 0.0);
         
     }
@@ -55,7 +55,7 @@ public class AlgoritmosTest {
         double paidPrice = 75;
         Algoritmos instance = new Algoritmos();
         double expResult = 25;
-        double result = instance.calculateDiscount(normalPrice, paidPrice);
+        double result = instance.calculateDiscount04(normalPrice, paidPrice);
         assertEquals(expResult, result, 0.0);
       
     }
@@ -67,7 +67,7 @@ public class AlgoritmosTest {
         double height = 4;
         Algoritmos instance = new Algoritmos();
         double expResult = 6;
-        double result = instance.calculateArea(base, height);
+        double result = instance.calculateArea06(base, height);
         assertEquals(expResult, result, 0.0);
         
     }
@@ -79,7 +79,7 @@ public class AlgoritmosTest {
         double height = 4;
         Algoritmos instance = new Algoritmos();
         double expResult = 12;
-        double result = instance.calculatePerimeter(base, height);
+        double result = instance.calculatePerimeter06(base, height);
         assertEquals(expResult, result, 0.0);
         
     }
